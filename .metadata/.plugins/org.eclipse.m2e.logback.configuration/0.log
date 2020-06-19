@@ -45,3 +45,4 @@
 2020-06-19 20:09:50,318 [Framework stop] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\ÁøÇõ\Desktop\workspace\Chapter2\.git]
 2020-06-19 20:21:58,298 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-06-19 20:25:01,964 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-19 20:26:44,642 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
