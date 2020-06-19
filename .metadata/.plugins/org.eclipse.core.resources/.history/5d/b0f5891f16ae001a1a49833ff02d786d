@@ -1,0 +1,19 @@
+package inheritance;
+
+public class VIPCustomer extends Customer{
+
+	double salesRatio;
+	private int agentID;
+	
+	public VIPCustomer() {
+		
+		//super(); //자동으로 상위 클래스의 디폴트 생성자가 호출됨
+		         //(상위 클래스의 메모리위치 즉 참조값을 가지고 있다)
+		customerGrade = "VIP";
+		bonusRatio = 0.05;
+		salesRatio = 0.1;
+		
+		System.out.println("VIPCustomer() 생성자 호출");
+		
+	}
+}
