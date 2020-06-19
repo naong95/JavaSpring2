@@ -9,7 +9,6 @@ public class BinaryTest {
 		int oNum = 012;
 		int xNum = 0xA;
 		
-		
 		System.out.println(num);
 		System.out.println(bNum);
 		System.out.println(oNum);
