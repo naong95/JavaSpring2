@@ -46,8 +46,6 @@ public class AnimalTest {
 		test.moveAnimal(hAnimal);
 		test.moveAnimal(tAnimal);
 		test.moveAnimal(eAnimal);
-		
-
 	}
 	
 	public void moveAnimal(Animal animal) {
