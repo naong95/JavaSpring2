@@ -1,7 +1,5 @@
 package polymorphism;
 
-import java.util.ArrayList;
-
 class Animal{
 	
 	public void move() {
@@ -43,20 +41,12 @@ public class AnimalTest {
 		Animal hAnimal = new Human();
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
-		/*
+		
 		AnimalTest test = new AnimalTest();
 		test.moveAnimal(hAnimal);
 		test.moveAnimal(tAnimal);
 		test.moveAnimal(eAnimal);
-		*/
-		ArrayList<Animal> animalList = new ArrayList<Animal>();
-		animalList.add(hAnimal);
-		animalList.add(tAnimal);
-		animalList.add(eAnimal);
 		
-		for(Animal animal : animalList) {
-			animal.move(); //코드는 하나지만 다양하게 호출된다.
-		}
 
 	}
 	
@@ -64,8 +54,8 @@ public class AnimalTest {
 		animal.move(); //하나의 코드가 여러 자료형이 구현돼서 다른 실행이 이루어짐.
 	}
 	
-	/*public void moveAnimal(Human animal) { //각각 하면 따로 만들면 3개를 만들어야한다.
+	public void moveAnimal(Human animal) { //각각 하면 따로 만들면 3개를 만들어야한다.
 		animal.move();
-	}*/
+	}
 
 }

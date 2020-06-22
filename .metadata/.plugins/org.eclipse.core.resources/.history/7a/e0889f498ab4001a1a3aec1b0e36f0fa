@@ -55,7 +55,7 @@ public class AnimalTest {
 		animalList.add(eAnimal);
 		
 		for(Animal animal : animalList) {
-			animal.move(); //코드는 하나지만 다양하게 호출된다.
+			animal.move();
 		}
 
 	}
