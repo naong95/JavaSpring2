@@ -7,10 +7,6 @@ class Animal{
 	public void move() {
 		System.out.println("동물이 움직입니다.");
 	}
-	
-	public void eating() {
-		System.out.println();
-	}
 }
 
 class Human extends Animal{
@@ -56,15 +52,12 @@ public class AnimalTest {
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
 		
-		/*Human human = (Human)hAnimal; //휴먼으로 다운캐스팅 해야지 리드북스 사용가능, 다운캐스팅은 명시적으로
-		human.readBooks();*/
+		Human human = (Human)hAnimal; //휴먼으로 다운캐스팅 해야지 리드북스 사용가능
+		human.readBooks();
+		if(hAnimal instanceof Eagle) {
+			Eagle human = (Eagle)hAnimal;
+		}
 		
-		
-		/*if(hAnimal instanceof Human) {
-			Human human = (Human)hAnimal;
-			human.readBooks();
-		} //instanceof는 true false 체크해서 반환해줌
-		*/
 		
 		/*
 		AnimalTest test = new AnimalTest();
@@ -77,37 +70,12 @@ public class AnimalTest {
 		animalList.add(tAnimal);
 		animalList.add(eAnimal);
 		
-		AnimalTest test = new AnimalTest();
-		test.testDownCasting(animalList);
-		
 		/*
 		for(Animal animal : animalList) {
 			animal.move(); //코드는 하나지만 다양하게 호출된다.
 		}
 		*/
 
-	}
-	
-	public void testDownCasting(ArrayList<Animal> list) {
-		for(int i = 0; i < list.size(); i++) {
-			Animal animal = list.get(i);
-			
-			if(animal instanceof Human) {
-				Human human = (Human)animal;
-				human.readBooks();
-			}
-			else if(animal instanceof Tiger) {
-				Tiger tiger = (Tiger)animal;
-				tiger.hunting();
-			}
-			else if(animal instanceof Eagle) {
-				Eagle eagle = (Eagle)animal;
-				eagle.flying();
-			}
-			else {
-				System.out.println("error");
-			}
-		}
 	}
 	
 	public void moveAnimal(Animal animal) {
