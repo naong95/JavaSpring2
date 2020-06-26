@@ -1,0 +1,18 @@
+package quiz;
+
+import java.util.ArrayList;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+
+		ArrayList<Customer> customerList = new ArrayList<Customer>();
+		
+		Customer customerHeo = new Customer(10010, "허진혁");
+		Customer customerKim = new Customer(10010, "김강열");
+		Customer customerLee = new Customer(10010, "이가흔");
+		Customer customerPark = new Customer(10010, "박지현");
+		Customer customerCheon = new Customer(10010, "천인우");
+	}
+
+}
