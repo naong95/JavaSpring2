@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="array.Student"/>
     <fullyQualifiedTypeName name="abstractex.Computer"/>
     <fullyQualifiedTypeName name="abstractex.NoteBook"/>
+    <fullyQualifiedTypeName name="templet.AICar"/>
+    <fullyQualifiedTypeName name="templet.ManualCar"/>
 </qualifiedTypeNameHistroy>
