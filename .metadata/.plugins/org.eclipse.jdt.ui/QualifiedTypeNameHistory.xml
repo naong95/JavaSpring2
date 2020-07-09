@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="reference.Student"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="array.Student"/>
     <fullyQualifiedTypeName name="abstractex.Computer"/>
     <fullyQualifiedTypeName name="abstractex.NoteBook"/>
@@ -14,4 +13,5 @@
     <fullyQualifiedTypeName name="gamelevel.Player"/>
     <fullyQualifiedTypeName name="gamelevel.AdvancedLevel"/>
     <fullyQualifiedTypeName name="gamelevel.SuperLevel"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
