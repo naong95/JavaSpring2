@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="gamelevel.AdvancedLevel"/>
     <fullyQualifiedTypeName name="gamelevel.SuperLevel"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="intefaceex.Calculator"/>
+    <fullyQualifiedTypeName name="intefaceex.CompleteCalc"/>
 </qualifiedTypeNameHistroy>
