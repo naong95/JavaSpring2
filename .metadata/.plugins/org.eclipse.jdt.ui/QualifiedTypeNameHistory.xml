@@ -16,4 +16,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="intefaceex.Calculator"/>
     <fullyQualifiedTypeName name="intefaceex.CompleteCalc"/>
+    <fullyQualifiedTypeName name="scheduler.Scheduler"/>
+    <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
+    <fullyQualifiedTypeName name="scheduler.LeastJob"/>
+    <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
 </qualifiedTypeNameHistroy>
