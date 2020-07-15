@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
     <fullyQualifiedTypeName name="scheduler.LeastJob"/>
     <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="intefaceex.Customer"/>
 </qualifiedTypeNameHistroy>
