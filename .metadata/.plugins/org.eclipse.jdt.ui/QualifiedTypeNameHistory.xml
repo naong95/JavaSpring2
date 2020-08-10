@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="abstractex.NoteBook"/>
     <fullyQualifiedTypeName name="templet.AICar"/>
     <fullyQualifiedTypeName name="templet.ManualCar"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="gamelevel.PlayerLevel"/>
     <fullyQualifiedTypeName name="gamelevel.Player"/>
     <fullyQualifiedTypeName name="gamelevel.AdvancedLevel"/>
@@ -21,4 +20,5 @@
     <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
     <fullyQualifiedTypeName name="intefaceex.Customer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
