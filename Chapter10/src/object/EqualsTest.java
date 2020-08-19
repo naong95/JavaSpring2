@@ -22,6 +22,11 @@ class Student{
 		}
 		return false;
 	} //물리적으로 다른 주소값에 있지만 논리적으로 같은 객체를 같다고 처리하기 위한 equals 재정의
+
+	@Override
+	public int hashCode() {
+		return studentNum;
+	}
 	
 	
 	
@@ -30,7 +35,8 @@ class Student{
 public class EqualsTest {
 
 	public static void main(String[] args) {
-
+		
+		/*
 		Student Lee = new Student(100, "이순신");
 		Student Lee2 = Lee;
 		Student Shin = new Student(100, "이순신");
@@ -38,17 +44,27 @@ public class EqualsTest {
 		System.out.println(Lee == Shin);
 		System.out.println(Lee.equals(Shin));
 		
-		
-		/*
 		String str1 =new String("abc");
 		String str2 =new String("abc");
 	
 		System.out.println(str1 == str2); //==은 두 개의 메모리 주소가 같냐?
 		System.out.println(str1.equals(str2)); //같은 문자열이냐?
-		*/
 		
 		System.out.println(Lee.hashCode());
 		System.out.println(Shin.hashCode());
+		*/
+		
+		
+		Integer i1 = 100;
+		Integer i2 = 100;
+		
+		System.out.println(i1.equals(i2));
+		System.out.println(i1.hashCode());
+		System.out.println(i2.hashCode());
+	
+		System.out.println(System.identityHashCode(i1));
+		System.out.println(System.identityHashCode(i2));
+		
 	}
 
 }
