@@ -37,8 +37,6 @@ public class ToStringTest{
 		Book book2 = (Book)book.clone();
 		System.out.println(book2);
 		
-		Object
-		
 	}
 
 }
