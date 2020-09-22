@@ -34,4 +34,7 @@
     <fullyQualifiedTypeName name="innerclass.OutClass.InStaticClass"/>
     <fullyQualifiedTypeName name="MyRunnable"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="lambda.MyMaxNumber"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="lambda.StringConcat"/>
 </qualifiedTypeNameHistroy>
