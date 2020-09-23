@@ -36,5 +36,7 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="lambda.MyMaxNumber"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="lambda.StringConImpl"/>
     <fullyQualifiedTypeName name="lambda.StringConcat"/>
+    <fullyQualifiedTypeName name="lambda.PrintString"/>
 </qualifiedTypeNameHistroy>
