@@ -39,4 +39,9 @@
     <fullyQualifiedTypeName name="lambda.StringConImpl"/>
     <fullyQualifiedTypeName name="lambda.StringConcat"/>
     <fullyQualifiedTypeName name="lambda.PrintString"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="stream.ArrayListStreamTest"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
