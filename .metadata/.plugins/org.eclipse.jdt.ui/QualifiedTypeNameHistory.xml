@@ -40,8 +40,9 @@
     <fullyQualifiedTypeName name="lambda.StringConcat"/>
     <fullyQualifiedTypeName name="lambda.PrintString"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="stream.ArrayListStreamTest"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="quiz.TravelCustomer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
