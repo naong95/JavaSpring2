@@ -17,4 +17,4 @@ public class BinaryTest {
 		System.out.println(xNum);
 	}
 
-}
+}//gitpush
