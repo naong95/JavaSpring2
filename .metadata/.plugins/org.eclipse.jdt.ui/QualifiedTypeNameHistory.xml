@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="abstractex.Computer"/>
     <fullyQualifiedTypeName name="abstractex.NoteBook"/>
     <fullyQualifiedTypeName name="templet.AICar"/>
     <fullyQualifiedTypeName name="templet.ManualCar"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.Externalizable"/>
+    <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
 </qualifiedTypeNameHistroy>
