@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="abstractex.NoteBook"/>
-    <fullyQualifiedTypeName name="templet.AICar"/>
     <fullyQualifiedTypeName name="templet.ManualCar"/>
     <fullyQualifiedTypeName name="gamelevel.PlayerLevel"/>
     <fullyQualifiedTypeName name="gamelevel.Player"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.Externalizable"/>
     <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
+    <fullyQualifiedTypeName name="stream.coffee.Decorator"/>
+    <fullyQualifiedTypeName name="stream.coffee.KenyaAmericano"/>
 </qualifiedTypeNameHistroy>
