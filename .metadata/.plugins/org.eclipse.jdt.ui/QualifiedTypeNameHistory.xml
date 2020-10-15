@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="gamelevel.PlayerLevel"/>
-    <fullyQualifiedTypeName name="gamelevel.Player"/>
     <fullyQualifiedTypeName name="gamelevel.AdvancedLevel"/>
     <fullyQualifiedTypeName name="gamelevel.SuperLevel"/>
     <fullyQualifiedTypeName name="intefaceex.Calculator"/>
@@ -14,7 +12,6 @@
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="collection.set.HashSetTest"/>
     <fullyQualifiedTypeName name="collection.set.MemberHashSet"/>
     <fullyQualifiedTypeName name="collection.set.Member"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="stream.coffee.Decorator"/>
     <fullyQualifiedTypeName name="stream.coffee.KenyaAmericano"/>
     <fullyQualifiedTypeName name="thread.InterruptTest"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="thread.FastLibrary"/>
+    <fullyQualifiedTypeName name="thread.Student"/>
 </qualifiedTypeNameHistroy>
