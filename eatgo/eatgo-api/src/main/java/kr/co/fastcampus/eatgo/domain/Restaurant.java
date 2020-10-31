@@ -1,7 +1,5 @@
 package kr.co.fastcampus.eatgo.domain;
 
-import com.fasterxml.jackson.databind.node.ArrayNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
