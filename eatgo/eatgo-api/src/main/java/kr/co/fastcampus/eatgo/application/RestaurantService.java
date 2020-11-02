@@ -34,9 +34,6 @@ public class RestaurantService {
     public Restaurant getRestaurant(Long id) {
         Restaurant restaurant = restaurantRepository.findById(id);
 
-//        기본 정보 + 메뉴 정보
-//        Restaurant restaurant = restaurantRepository.findById(id);
-
         List<MenuItem> menuItems = menuItemRepository.findAllByRestaurantId(id);
         restaurant.setMenuItems(menuItems);
 
